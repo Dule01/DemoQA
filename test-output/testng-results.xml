@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-03T12:06:13 CEST" name="Default suite" finished-at="2024-05-03T12:06:29 CEST" duration-ms="16311">
+    <groups>
+    </groups>
+    <test started-at="2024-05-03T12:06:13 CEST" name="Default test" finished-at="2024-05-03T12:06:29 CEST" duration-ms="16311">
+      <class name="demoqapractice.tests.ElementsTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:demoqapractice.tests.ElementsTests@3c77d488]" started-at="2024-05-03T12:06:13 CEST" name="launchApplication" finished-at="2024-05-03T12:06:29 CEST" duration-ms="15427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitTextForm(java.util.HashMap)[pri:0, instance:demoqapractice.tests.ElementsTests@3c77d488]" started-at="2024-05-03T12:06:29 CEST" name="submitTextForm" data-provider="getData" finished-at="2024-05-03T12:06:29 CEST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fullname=Dusan Simic, permanentAddress=Address 321, email=duletest123@gmail.com, currentAddress=Address 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTextForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoqapractice.tests.ElementsTests@3c77d488]" started-at="2024-05-03T12:06:29 CEST" name="tearDown" finished-at="2024-05-03T12:06:29 CEST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoqapractice.tests.ElementsTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
